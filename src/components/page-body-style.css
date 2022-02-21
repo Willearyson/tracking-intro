@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-body-container{
+    width: 90%;
+    margin-left: auto;
+}
+.page-body-content{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-body-left-side{
+    width: 43%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.page-body-right-side{
+    width: 57%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bg-color{
+    width: 100%;
+    height: 60%;
+    background-color: #edf2f6;
+    border-bottom-left-radius: 100px;
+}
+.computer-img{
+    position: absolute;
+    bottom: 54px;
+    right: -17%;
+
+}
+.text-area{
+    width: 100%;
+    margin-top: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text-item-1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.new{
+    width: 50px;
+    height: 26px;
+    border-radius: 20px;
+    background-color: #232840;
+    color: #faf9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.monograph{
+    text-transform: uppercase;
+    color: #989ca2;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.text-item-2{
+    margin-bottom: 30px;
+}
+.text-item-2 h1{
+    font-size: 65px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #232840;
+}
+
+.text-item-3{
+    width: 50%;
+    margin-bottom: 62px;
+}
+.text-item-3 p{
+    font-size: 22px;
+    color: #83838d;
+}
+.text-item-4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn-link{
+    width: 30%;
+    height: 50px;
+    background-color: #ff5d5e;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.btn-link:hover{
+    opacity: 0.7;
+}
+.btn-link a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.text-item-4 p{
+    color: #83838d;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+@media (min-width:375px) and (max-width:426px){
+    .header-space-content{
+        height: 75px;
+    }
+    .page-body-content{
+        flex-direction: column-reverse;
+    }
+    .page-body-left-side{
+        width: 90%;
+        height: 50vh;
+    
+    }
+    .page-body-right-side{
+        width: 100%;
+        height: 50vh;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #edf2f6;
+        border-bottom-left-radius: 50px;
+    }
+    .text-area{
+        margin-top: 0;
+    }
+    .bg-color{
+        display: none;
+    }
+    .computer-img{
+        width: 100%;
+        height: 25%;
+        left: 0;
+        top: 135px;
+        position: inherit;
+    }
+    .computer-img img{
+        width: 100%;
+    }
+    .text-item-2{
+        margin-bottom: 30px;
+    }
+    .text-item-2 h1{
+        font-size: 35px;
+    }
+    .text-item-3{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .text-item-4 p{
+        font-size: 14px;
+    }
+    .btn-link{
+        width: 50%;
+    }
+}
+@media (min-width:320px) and (max-width:374px){
+    .header-space-content{
+        height: 75px;
+    }
+    .page-body-content{
+        flex-direction: column-reverse;
+    }
+    .page-body-left-side{
+        width: 90%;
+        height: 50vh;
+    
+    }
+    .page-body-right-side{
+        width: 100%;
+        height: 50vh;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #edf2f6;
+        border-bottom-left-radius: 50px;
+    }
+    .text-area{
+        margin-top: 0;
+    }
+    .bg-color{
+
+        display: none;
+    }
+    .computer-img{
+        width: 100%;
+        height: 25%;
+        left: 0;
+        top: 135px;
+        position: inherit;
+    }
+    .computer-img img{
+        width: 100%;
+    }
+    .text-item-2{
+        margin-bottom: 30px;
+    }
+    .text-item-2 h1{
+        font-size: 30px;
+    }
+    .text-item-3{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .text-item-4 p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .btn-link{
+        width: 60%;
+    }
+}
